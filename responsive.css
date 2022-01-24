@@ -1,0 +1,599 @@
+/*///////////////////////////////////responsiveness......................*/
+@media (max-width: 1204px){
+	.headtop .navbar-brand{
+		padding: 3px 15px;
+	}
+	#top #slogan_slide{
+		font-size: 12px
+	}
+	#top #slogan_slide .triangle{
+		width: 0px;
+		height: 0px;
+		margin: 0px 5px;
+		border-top: 5px solid transparent;
+		border-bottom: 5px solid transparent;
+		border-left: 5px solid #f6e58d;
+	}
+	.headtop .navbar-brand img{
+		height: 30px;
+		width: auto;
+	}
+	.navbar .navbar-nav .nav-link{
+		font-size: 12px;
+	}
+	.navbar .cart-btn{
+		font-size: 15px;
+	}
+	.navbar .cart .cart_num,
+	.navbar .cart .wishlist_num{
+		padding: 0.2px 5px;
+		margin-left: -3px;
+	}
+	#indexattr .top_row{
+		margin-bottom: 15px;
+	}
+	#indexattr .cats_index .col-md-2{
+		height: 60px;
+	}
+
+	#cat_home .container-fluid .col{
+		min-height: 140px;
+	}
+	#checkoutpage .total_final input{
+		width: 50%;
+	}
+
+	.checkout_pname{
+		font-size: 12px;
+	}
+	#checkoutpage .container .row .right .detail .center{
+		font-size: 14px;
+	}
+	#our_story .container .team .headg{
+		border-bottom: 10px solid brown;
+		border-right: none;
+		margin-bottom: 20px;
+		padding-right: 0px;
+	}
+	.team{
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+@media (max-width: 991px){
+	#productdetail .container-fluid .row .more_img{
+		display: flex;
+		justify-content: center;
+		padding-bottom: 18px;
+	}
+	#productdetail .container-fluid .row #more_product_img{
+		margin-left: 4px;
+		margin-right: 4px;
+	}
+	#productdetail .container-fluid .row #more_product_img:hover{
+		transform: none;
+	}
+}
+
+@media (max-width: 980px){
+	#top #slogan_slide{
+		font-size: 10px
+	}
+	#productdetail .container-fluid .row .col-md-4 .addtocart,
+	#productdetail .container-fluid .row .col-md-4 .buynow,
+	#productdetail .container-fluid .row .col-md-4 .modify{
+		margin: 4px;
+		padding: 3px;
+	}
+
+}
+
+
+@media (max-width: 950px){
+	.navbar .navbar-nav .extra_option{
+		display: none;
+	}
+	#top #slogan_slide{
+		display: none;
+	}
+	#footer .container-fluid{
+		padding: 10px 30px;
+	}
+	#footer .container-fluid .row .col-md-4 h2{
+		font-size: 23px;
+	}
+	#footer .container-fluid .social{
+		font-size: 15px;
+	}
+	#footer .container-fluid .row .contact table tr td{
+		/*padding: 20px 10px 0px 10px;*/
+		font-size: 12px;
+	}
+	#footer .container-fluid .social i{
+		margin: 3px;
+	}
+	.extra_story{
+		display: block;
+	}
+}
+
+
+@media (min-width: 950px){
+
+}
+
+@media (max-width: 780px){
+	.navbar .navbar-nav .login{
+		margin: 0px;
+	}
+}
+
+
+@media (min-width: 1000px){
+	.navbar .navbar-nav .dropdown{
+		position: relative !important;
+		display: inline-block !important;
+	}
+	.fixed-top{
+		z-index: 800!important;
+	}
+}
+
+
+@media(max-width: 1000px){
+	.night{
+		display: none;
+	}
+	#our_story .container .rowone .col{
+		animation: none;
+	}
+	#addtocart .container table,
+	#addtocart .container tr,
+	#addtocart .container td,
+	#addtocart .container th{
+		padding: 6px 15px;
+	}
+	#checkoutpage .container .row .right .detail .coupon_btn{
+		font-size: 10px;
+	}
+	#checkoutpage .container .row .right .detail .center{
+		font-size: 12px;
+	}
+	#my_orders .container .row .col table tr th{
+		padding: 5px 15px;
+	}
+	#my_orders .container .row .col table tr td{
+		padding: 5px;
+	}
+	#our_story .container .team .team_id{
+		height: 120px;
+		width: 120px;
+	}		
+}
+
+
+@media(min-width: 1050px){
+	.headtop{
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	
+}
+
+
+@media(max-width: 767px){
+	.headtop{
+		/*display: table;*/
+		text-align: left;
+		padding-bottom: 8px;
+	}
+	.headtop .navbar-brand{
+		border-radius: 0px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.headtop .navbar-brand img{
+		height: 30px;
+		width: auto;
+	}
+	.logout{
+		border: none!important;
+	}
+	.user_main{
+		display: none;
+	}
+	.user_temp{
+		display: block;
+	}
+
+	.headtop .menu_check{
+		margin-top: 10px;
+		border-top: 2px solid #0abde3;
+	}
+	.navbar .navbar-nav .extra_option{
+		display: block;
+	}
+	.navbar .sear_ch{
+		position: absolute;
+		right: 90px!important;
+		margin-bottom: 2px;
+	}
+	.navbar .sear_ch2{
+		position: absolute;
+		right: 60px!important;
+		margin-bottom: 2px;
+	}
+	.search_btn,
+	.search_btn:focus,
+	.search_btn:active{
+		border-radius: 8px;
+	}
+	.search_bar{
+		border-radius: 0px;
+		padding: 3px 10px;
+	}
+	.search_bar input,
+	.search_bar input:active,
+	.search_bar input:focus{
+		width: 150px;
+		font-size: 12px;
+	}
+	.navbar .cart-btn{
+		position: absolute;
+		top: 5px;
+		right: 25px;
+	}
+	.navbar .wish_list{
+		position: absolute;
+		top: 5px;
+		right: 65px;
+	}
+
+	.temp_div{
+		display: none;
+	}
+	/*.......................navbar menu..............................*/
+	#top .navbar-toggler{
+		position: absolute;
+		top: 0px;
+		left: 0;
+	}
+	
+
+
+	.carousel{
+		margin-top: 5px; 
+	}
+	.carousel .carousel-indicators li{
+		padding: 1px !important;
+		border: 1px solid #fff;
+	}
+	.carousel-control-prev i,
+	.carousel-control-next i{
+		font-size: 15px!important;
+	}
+	.carousel-control-prev:hover i{
+		transform: translateX(-10px);
+	}
+	.carousel-control-next:hover i{
+		transform: translateX(10px);
+	}
+
+	.qoute{
+		font-size: 18px;
+	}
+
+	#indexattr .cats_index .col-md-2{
+		border-radius: 0px;
+		height: 150px;
+	}
+
+	.google_ads{
+		display: none;
+	}
+	#cat_home .container-fluid .col img{
+		width: 120%;
+	}
+	.topui .col{
+		padding: 18px;
+	}
+
+	#products .container .row .inside_col{ 
+		padding: 15px;
+	}
+
+	#login .modal-content{
+		padding: 0px!important;
+	}
+	#login .row .login,
+	#login .row .register{
+		padding: 20px;
+	}
+	#login .row .title{
+		font-size: 26px;
+	}
+	#login .row .login input,
+	#login .row .register input{
+		padding: 5px 10px;
+		margin: 8px 8px 8px 0px;
+	}
+	#login .row .login .go_on{
+		padding: 8px;
+		margin: 8px 8px 8px 0px;
+	}
+	.login_other_options{
+		font-size: 12px;
+	}
+
+	#login .row .register .go_on{
+		padding: 8px;
+		margin: 8px 8px 8px 0px;
+	}
+	#login .row .register .email_sent_otp{
+		padding: 4px 9px;
+	}
+
+
+	#addtocart .container table{
+		font-size: 10px;
+	}
+	#addtocart .container table td .quantity a{
+		padding: 4px;
+		font-size: 8px;  
+	}
+
+	#my_orders .container{
+		margin: 10px auto;
+	}
+	#my_orders .container .row .col{
+		padding: 20px;
+	}
+
+	#my_orders .container .row .col table,
+	#my_orders .container .row .col table tr,
+	#my_orders .container .row .col table tr td,
+	#my_orders .container .row .col table tr th{
+		font-size: 12px;
+	}
+	.address_font{
+		font-size: 10px!important;
+	}
+	#contactus .container .row .col form .formr1 input{
+		padding: 5px;
+		margin: 8px;
+		font-size: 12px;
+	}
+
+	#contactus .container .row .col form .formr2 textarea{
+		padding: 5px;
+		margin: auto 8px;
+		font-size: 12px;
+	}
+	#our_story .container .rowone .col{
+		font-size: 23px;
+		border-bottom: 5px solid #111;
+	}
+
+	.extra_story{
+		display: none;
+	}
+	#our_story .container .rowtwo .trust{
+		padding-top: 15px;
+	}
+	#our_story .container .team .headg{
+		border-bottom: 5px solid brown;
+	}
+
+	._hide{
+		display: none!important;
+	}
+	#orignals .cat .container a .row{
+		height: auto;
+	}
+	#productdetail .container-fluid .row #more_product_img{
+		width: 80px;
+		height: 60px;
+	}
+	#productdetail .container-fluid .row #more_product_img img{
+		width: 80px;
+	}
+
+}
+
+@media (max-width: 650px){
+	.carousel .carousel-indicators li{
+		display: none;
+	}
+	.qoute{
+		font-size: 15px;
+	}
+	#indexattr .newarrival .row .set_one{
+		padding: 25px;
+	}
+	#cat_home .container-fluid .col{
+		min-height: 100px;
+	}
+	.topui .col{
+		font-size: 13px;
+	}
+	#newarrival .container-fluid h1{
+		width: 60%;
+		font-size: 30px;
+	}
+	.topui .col{
+		display: block;
+	}
+	.container-fluid .row .sorting{
+		margin: 0px 0px;
+	}
+	#addtocart .container .action a{
+		padding: 5px;
+	}
+}
+
+@media (max-width: 550px){
+	#my_orders .container{
+		margin: 0px auto;
+	}
+	#my_orders .container .row .col{
+		padding: 10px;
+	}
+
+	#my_orders .container .row .col table,
+	#my_orders .container .row .col table tr,
+	#my_orders .container .row .col table tr td,
+	#my_orders .container .row .col table tr th{
+		font-size: 10px;
+	}
+	.address_font{
+		font-size: 8px!important;
+	}
+	#my_orders .container .row .col table tr th{
+		padding: 3px 10px;
+	}
+	#my_orders .container .row .col table tr td{
+		padding: 3px;
+		}
+	}
+	#our_story .container .rowtwo .trust p{
+		font-size: 14px;
+	}
+	
+}
+
+
+@media (max-width: 420px){
+	#indexattr .newarrival .row{
+		padding: 5px auto;
+	}
+	#indexattr .newarrival .row .set_one{
+		padding: 5px;
+	}
+	#indexattr .newarrival{
+		padding: 10px;
+	}
+	#indexattr .newarrival h2{
+		font-size: 23px;
+		padding: 5px;
+	}
+	#indexattr .newarrival h5{
+		font-size: 15px;
+	}
+	#cat_home .container-fluid .col{
+		min-height: 60px;
+	}
+	#categories_home #products .container-fluid .container .row .col-md-6 .inside{
+		font-size: 18px;
+	}
+	#products .container .row .inside_col .describe h5{
+		font-size: 15px;
+	}
+
+	#addtocart .card-img{
+		height: 50px;
+		width: auto;
+	}
+	.cart_pname{
+		font-size: 8px;
+	}
+	#addtocart .container table,
+	#addtocart .container tr,
+	#addtocart .container td,
+	#addtocart .container th{
+		padding: 3px 8px;
+	}
+	#addtocart .container{
+		margin: 5px auto;
+		padding: 7px 15px;
+	}
+	#addtocart .container .top-row .col{
+		padding: 0px;
+	}
+	#addtocart .container .action a{
+		font-size: 12px;
+	}
+
+	#checkoutpage .container .row .left span{
+		font-size: 15px;
+		letter-spacing: 2px;
+	}
+
+	#checkoutpage .checkout_submit{
+		padding: 5px 10px;
+		font-size: 15px;
+	}
+	#checkoutpage .add form .bottom_input{
+		display: block;
+	}
+	#checkoutpage .container .row .left input{
+		font-size: 12px;
+		width: 100%;
+	}
+	.payment_size{
+		display: none;
+	}
+	.my_order_d{
+		width: 60px;
+		height: auto;
+	}
+	#contactus .container .row .col form .formr1,
+	#contactus .container .row .col form .formr2{
+		display: block;
+		margin: auto;
+	}
+	#contactus .container .row .col form .formr2 textarea{
+		margin: 8px 8px;
+	}
+
+	#contactus .container .row .left{
+		padding: 10px;
+		height: 200px;
+	}
+	#contactus .container .row .left iframe{
+		border-radius: 18px;
+	}
+
+	#contactus .container .row .col form .submitbtn button{
+		font-size: 12px;
+		padding: 5px 10px;
+	}
+	#our_story .container .rowone .col{
+		font-size: 18px;
+		border-bottom: 2px solid #111;
+	}
+	#our_story .container .team .headg .show_xl{
+		font-size: 22px;
+	}
+	#categories_home #products .container-fluid .container .row .col-md-6 .inside{
+		font-size: 15px;
+	}
+
+}
+
+@media (max-width: 330px){
+	.headtop .navbar-brand{
+		padding: 3px 10px;
+		margin-left: 30px;
+	}
+	.navbar .sear_ch{
+		right: 85px!important;
+	}
+
+	.qoute{
+		font-size: 10px;
+	}
+	
+	.topui .col{
+		padding: 13px;
+	}
+	
+	#newarrival .container-fluid h1{
+		width: 100%;
+	}
+	#our_story .container .rowone .col{
+		font-size: 15px;
+	}
+}
+
+

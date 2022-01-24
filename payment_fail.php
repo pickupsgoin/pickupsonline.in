@@ -1,0 +1,1 @@
+<?php	require 'top.php';?><section id="thankyoupage">	<div class="container_fluid">		<div class="row">			<div class="col message">Payment Failed..!!!<br/>				If Amount has deducted please our contact customer care. For Help!			</div>		</div>	</div></section><?php  	require 'footer.php'; ?>
